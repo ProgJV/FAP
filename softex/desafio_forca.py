@@ -11,12 +11,12 @@ def menu():
 
 def main():
     try:
-        letras_user = []
 
         print('Bem vindo(a) ao jogo da forca!!')
         print('-' * 31)
         
         while True:
+            letras_user = []
             opcao = menu()
         
             ### abrindo o arquivo e selecionando uma palavra aleatoria 
